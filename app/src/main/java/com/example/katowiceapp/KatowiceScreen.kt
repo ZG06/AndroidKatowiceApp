@@ -21,6 +21,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.katowiceapp.data.PlaceUiState
 import com.example.katowiceapp.data.datasource.CategoriesDataProvider
@@ -86,19 +87,30 @@ fun KatowiceApp(
     // Create uiState
     val uiState by viewModel.uiState.collectAsState()
 
+    /*
+    When navigating through the app, doing the following:
+        * If the user navigates to the 'Category' screen -> reset the selectedCategory in the UiState
+        * If the user navigates to the 'Recommendation' screen -> reset the selectedRecommendation in the UiState
+    */
+    navController.addOnDestinationChangedListener { _, destination, _ ->
+        when (destination.route) {
+            KatowiceScreen.Categories.name -> {
+                viewModel.resetCategory()
+                viewModel.resetRecommendation()
+            }
+            KatowiceScreen.Recommendations.name -> viewModel.resetRecommendation()
+            else -> {}
+        }
+    }
+
+    val backStackEntry = navController.currentBackStackEntryAsState().value
+
     Scaffold(
         topBar = {
             KatowiceAppBar(
                 placeUiState = uiState,
-                canNavigateBack = navController.previousBackStackEntry != null,
-                navigateUp = {
-                    when (navController.currentBackStackEntry?.destination?.route) {
-                        KatowiceScreen.Recommendations.name -> viewModel.resetCategory()
-                        KatowiceScreen.DetailedRecommendation.name -> viewModel.resetRecommendation()
-                    }
-
-                    navController.navigateUp()
-                }
+                canNavigateBack = backStackEntry?.destination?.route != KatowiceScreen.Categories.name,
+                navigateUp = { navController.navigateUp() }
             )
         }
     ) { innerPadding ->

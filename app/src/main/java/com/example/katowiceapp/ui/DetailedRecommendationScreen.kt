@@ -46,8 +46,8 @@ fun DetailedRecommendationScreen(
             modifier = Modifier
                 .padding(
                     top = dimensionResource(R.dimen.padding_large),
-                    start = dimensionResource(R.dimen.padding_small),
-                    end = dimensionResource(R.dimen.padding_small)
+                    start = dimensionResource(R.dimen.padding_medium),
+                    end = dimensionResource(R.dimen.padding_medium)
                 ),
             textAlign = TextAlign.Right
         )
