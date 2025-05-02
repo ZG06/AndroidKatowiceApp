@@ -1,0 +1,74 @@
+<resources>
+    <!-- Coffee Shops -->
+
+    <string name="back_button">Wstecz</string>
+
+    <string name="proper_coffee_name">Proper COFFEE</string>
+    <string name="proper_coffee_description">Minimalistyczna kawiarnia znana z napojów specjalistycznych i kaw jednorodnych. Świetne miejsce dla purystów kawowych i pracy zdalnej.</string>
+
+    <string name="coffee_jka_name">Coffee-jka</string>
+    <string name="coffee_jka_description">Przytulne i przyjazne miejsce z pyszną kawą i domowymi wypiekami. Ulubiona kawiarnia wśród mieszkańców, idealna na spotkania towarzyskie.</string>
+
+    <string name="black_woolf_coffee_books_name">Black Woolf Coffee &amp; Books</string>
+    <string name="black_woolf_coffee_books_description">Kawiarnia w księgarni z kreatywną atmosferą. Doskonała na relaks przy kawie i dobrej książce.</string>
+
+    <string name="urban_coffee_name">Urban Coffee</string>
+    <string name="urban_coffee_description">Urban Coffee to miejsce stworzone z myślą o Katowicach. Rano można tu zjeść dobre śniadanie i napić się kawy przed pracą, a wieczorem zrelaksować się przy kieliszku wina.</string>
+
+    <string name="kafej_name">Kafej</string>
+    <string name="kafej_description">Relaksująca kawiarnia oferująca menu śniadaniowe i lunchowe, z modnym wystrojem i przestronnym tarasem.</string>
+
+    <!-- Restaurants -->
+    <string name="zurownia_name">Żurownia</string>
+    <string name="zurownia_description">Przytulne miejsce znane z tradycyjnej kuchni śląskiej w nowoczesnym wydaniu. Nazwa pochodzi od \'żuru\', kwasnej zupy żytniej, która jest lokalnym przysmakiem. Restauracja stawia na dania comfort food, regionalne smaki i domową atmosferę.</string>
+
+    <string name="slaska_prohibicja_name">Śląska Prohibicja</string>
+    <string name="slaska_prohibicja_description">Zlokalizowana w historycznym Nikiszowiec, ta stylowa restauracja serwuje wykwintne wersje tradycyjnych dań śląskich. Eleganckie wnętrza i muzyka na żywo sprawiają, że to idealne miejsce na randkę lub specjalne okazje.</string>
+
+    <string name="yogi_gogi_korea_grill_name">Yogi Gogi Korea grill</string>
+    <string name="yogi_gogi_korea_grill_description">Popularna restauracja z koreańskim BBQ, gdzie goście mogą grillować mięsa przy stoliku. Znana z autentycznych smaków Korei, doskonałej obsługi i świetnej atmosfery dla grupowych posiłków.</string>
+
+    <string name="len_arte_name">Len Arte</string>
+    <string name="len_arte_description">Uwielbiana restauracja włoska specjalizująca się w pizzy neapolitańskiej pieczonej w piecu opalanym drewnem. Oferuje również pasty, antipasti i eleganckie, ale przytulne wnętrze.</string>
+
+    <string name="floor_27_name">27th Floor</string>
+    <string name="floor_27_description">Restauracja znajduje się na 27. piętrze hotelu Marriott w Katowicach. Stąd rozciąga się niesamowity widok na Śląsk i Beskidy. Jednak największą atrakcją restauracji 27th Floor jest jej wyśmienita kuchnia.</string>
+
+    <!-- Museums -->
+    <string name="muzeum_slaskie_name">Muzeum Śląskie</string>
+    <string name="muzeum_slaskie_description">Flagowa instytucja kultury w Katowicach, zbudowana na terenie dawnej kopalni. Muzeum w dużej części znajduje się pod ziemią i oferuje nowoczesne galerie poświęcone historii, sztuce i przemysłowi Śląska. To połączenie dziedzictwa i nowoczesnego designu.</string>
+
+    <string name="muzeum_historii_katowic_name">Muzeum Historii Katowic</string>
+    <string name="muzeum_historii_katowic_description">Muzeum, mieszczące się w pięknej kamienicy w stylu secesyjnym, opowiada historię Katowic – od miasta przemysłowego do nowoczesnej metropolii. Wystawy zawierają odtworzone wnętrza z minionych epok oraz bogaty archiwum fotograficzne.</string>
+
+    <string name="galeria_szyb_wilson_name">Galeria Szyb Wilson</string>
+    <string name="galeria_szyb_wilson_description">Galeria sztuki znajdująca się w byłym szybie kopalnianym. To jedna z największych prywatnych galerii sztuki współczesnej w Polsce. Prezentuje sztukę w surowym, przemysłowym przestrzeni. Organizuje również festiwale i wydarzenia.</string>
+
+    <string name="computer_museum_name">Muzeum Historii Technologii Informatycznej</string>
+    <string name="computer_museum_description">Muzeum technologii śledzące historię komputerów i IT w Polsce, z działającymi maszynami vintage.</string>
+
+    <string name="walcownia_name">WALCOWNIA Muzeum Metalurgii Cynku</string>
+    <string name="walcownia_description">W Muzeum Metalurgii Cynku WALCOWNIA w Katowicach można zobaczyć unikalną, historycznie zachowaną linię produkcji blach cynkowych — jedyną tego rodzaju w Europie. Ogromne, ponad 100–letnie maszyny wciąż działają podczas okazjonalnych demonstracji. Muzeum posiada również jedną z największych kolekcji motocykli Harley–Davidson i Indian z lat 1920–1986.</string>
+
+    <!-- Hotels -->
+    <string name="hotel_diament_plaza_katowice_name">Hotel Diament Plaza Katowice</string>
+    <string name="hotel_diament_plaza_katowice_description">4-gwiazdkowy hotel w centrum miasta, tuż obok głównego dworca kolejowego. Łączy historyczną architekturę z nowoczesnymi wnętrzami. Znany ze swojej wygody, czystości i przyjaznych dla biznesu udogodnień.</string>
+
+    <string name="q_hotel_plus_katowice_name">Q Hotel Plus Katowice</string>
+    <string name="q_hotel_plus_katowice_description">Nowoczesny i centralnie położony hotel oferujący eleganckie pokoje oraz świetne śniadania w formie bufetu. To popularny wybór zarówno dla turystów, jak i podróżujących służbowo, dzięki swojej dostępności i udogodnieniom.</string>
+
+    <string name="campanile_katowice_name">Campanile Katowice</string>
+    <string name="campanile_katowice_description">Tani i praktyczny hotel położony około 2,5 km od centrum miasta. Idealny na krótkie pobyty, z prostymi pokojami, przyzwoitą kuchnią i łatwym dostępem do autostrady.</string>
+
+    <string name="quality_silesian_hotel_name">Quality Silesian Hotel</string>
+    <string name="quality_silesian_hotel_description">Komfortowy i nowoczesny hotel 3-gwiazdkowy, zlokalizowany blisko autostrady A4, oferujący dogodny dostęp do centrum miasta i głównych szlaków komunikacyjnych. Oferuje dobrze wyposażone pokoje, restaurację, saunę i siłownię, co czyni go dobrym wyborem zarówno dla osób podróżujących służbowo, jak i turystów.</string>
+
+    <string name="hotel_monopol_name">Hotel Monopol</string>
+    <string name="hotel_monopol_description">Luksusowy 5-gwiazdkowy hotel w sercu Katowic, znany ze swoich eleganckich wnętrz, historycznej architektury i wysokiej klasy obsługi. Oferuje przestronne pokoje, restaurację fine dining, strefę wellness z basenem i spa, popularny wśród celebrytów i gości biznesowych.</string>
+
+    <!-- Categories -->
+    <string name="coffee_shops">Kawiarnie</string>
+    <string name="restaurants">Restauracje</string>
+    <string name="museums">Muzea</string>
+    <string name="hotels">Hotele</string>
+</resources>

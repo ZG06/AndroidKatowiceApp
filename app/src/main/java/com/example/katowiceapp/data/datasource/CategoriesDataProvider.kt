@@ -13,22 +13,22 @@ object CategoriesDataProvider {
     val CategoryItemList = listOf<CategoryItem>(
         CategoryItem(
             image = R.drawable.general_coffee_shop,
-            name = "Coffee Shops",
+            name = R.string.coffee_shops,
             recommendations = CoffeeShopsRecommendationItemList
         ),
         CategoryItem(
             image = R.drawable.general_restaurant,
-            name = "Restaurants",
+            name = R.string.restaurants,
             recommendations = RestaurantsRecommendationItemList
         ),
         CategoryItem(
             image = R.drawable.general_kids_friendly_place,
-            name = "Museums",
+            name = R.string.museums,
             recommendations = MuseumsRecommendationItemList
         ),
         CategoryItem(
             image = R.drawable.general_park,
-            name = "Hotels",
+            name = R.string.hotels,
             recommendations = HotelsRecommendationItemList
         )
     )

@@ -1,4 +1,75 @@
 <resources>
-    <string name="app_name">Katowice App</string>
+    <!-- Coffee Shops -->
+
+    <string name="app_name" translatable="false">Katowice App</string>
     <string name="back_button">Back</string>
+
+    <string name="proper_coffee_name">Proper COFFEE</string>
+    <string name="proper_coffee_description">Minimalist café known for specialty brews and single-origin beans. Great for coffee purists and remote work.</string>
+
+    <string name="coffee_jka_name">Coffee-jka</string>
+    <string name="coffee_jka_description">Cozy and friendly spot with great coffee and homemade treats. A favorite for locals and casual meetups.</string>
+
+    <string name="black_woolf_coffee_books_name">Black Woolf Coffee &amp; Books</string>
+    <string name="black_woolf_coffee_books_description">Bookstore café with a creative vibe. Perfect for relaxing with a coffee and a good read.</string>
+
+    <string name="urban_coffee_name">Urban Coffee</string>
+    <string name="urban_coffee_description">Urban Coffee is a place created with Katowice in mind. In the morning, you can drop by for a good coffee and breakfast before work, and in the evening, unwind with a glass of wine.</string>
+
+    <string name="kafej_name">Kafej</string>
+    <string name="kafej_description">Relaxed cafe offering breakfast &amp; lunch menus, along with trendy decor &amp; outdoor seating.</string>
+
+    <!-- Restaurants -->
+    <string name="zurownia_name">Żurownia</string>
+    <string name="zurownia_description">A cozy spot known for its traditional Silesian cuisine with a modern twist. The name comes from \'żur\';, a sour rye soup that\'s a local favorite. This restaurant focuses on comfort food, regional flavors, and a homely vibe.</string>
+
+    <string name="slaska_prohibicja_name">Śląska Prohibicja</string>
+    <string name="slaska_prohibicja_description">Located in the historic Nikiszowiec district, this stylish restaurant serves upscale interpretations of Silesian dishes. Elegant interiors and live music make it perfect for a date night or special occasion.</string>
+
+    <string name="yogi_gogi_korea_grill_name">Yogi Gogi Korea grill</string>
+    <string name="yogi_gogi_korea_grill_description">A popular Korean BBQ spot where guests can grill meats at their table. Known for authentic Korean flavors, attentive service, and great group dining experiences.</string>
+
+    <string name="len_arte_name">Len Arte</string>
+    <string name="len_arte_description">A well-loved Italian restaurant specializing in Neapolitan-style pizzas made in a wood-fired oven. Also offers pasta, antipasti, and a relaxed yet elegant setting.</string>
+
+    <string name="floor_27_name">27th Floor</string>
+    <string name="floor_27_description">The restaurant is located on the 27th floor of the Marriott Hotel in Katowice. From here, you can enjoy a stunning view of the Silesian metropolis and the Beskidy Mountains. However, the biggest highlight of the 27th Floor restaurant is its sensational cuisine.</string>
+
+    <!-- Museums -->
+    <string name="muzeum_slaskie_name">Muzeum Śląskie</string>
+    <string name="muzeum_slaskie_description">A flagship cultural institution in Katowice, built on the site of a former coal mine. The museum is mostly underground and features modern galleries on Silesian history, art, and industry. It’s a blend of heritage and cutting-edge design.</string>
+
+    <string name="muzeum_historii_katowic_name">Muzeum Historii Katowic</string>
+    <string name="muzeum_historii_katowic_description">Housed in a beautiful Art Nouveau building, this museum takes visitors through Katowice’s transformation from a mining town to a modern city. Includes reconstructed period interiors and a rich photo archive.</string>
+
+    <string name="galeria_szyb_wilson_name">Galeria Szyb Wilson</string>
+    <string name="galeria_szyb_wilson_description">Located in a former coal mine shaft, this is one of Poland’s largest private art galleries. It showcases contemporary art in a raw, industrial space. Also hosts festivals and events.</string>
+
+    <string name="computer_museum_name">Museum of the History of Information Technology</string>
+    <string name="computer_museum_description">Technology museum tracing the history of computing &amp; IT in Poland, with working vintage machines.</string>
+
+    <string name="walcownia_name">WALCOWNIA Zinc Metallurgy Museum</string>
+    <string name="walcownia_description">At the WALCOWNIA Zinc Metallurgy Museum in Katowice, visitors can see a unique, historically preserved zinc sheet production line—one of its kind in Europe. The massive, over 100-year-old machines are still used for their original purpose during occasional demonstrations. The museum also houses one of the largest collections of vintage Harley-Davidson and Indian motorcycles from 1920 to 1986.</string>
+
+    <!-- Hotels -->
+    <string name="hotel_diament_plaza_katowice_name">Hotel Diament Plaza Katowice</string>
+    <string name="hotel_diament_plaza_katowice_description">A 4-star hotel in the city center, just steps from the main railway station. Combines historic architecture with modern interiors. Known for its comfort, cleanliness, and business-friendly amenities.</string>
+
+    <string name="q_hotel_plus_katowice_name">Q Hotel Plus Katowice</string>
+    <string name="q_hotel_plus_katowice_description">Modern and centrally located, this hotel offers sleek rooms and a great breakfast buffet. It\'s a popular choice for both tourists and business travelers due to its accessibility and amenities.</string>
+
+    <string name="campanile_katowice_name">Campanile Katowice</string>
+    <string name="campanile_katowice_description">Budget-friendly and practical, Campanile is about 2.5 km from the city center. Ideal for short stays, with simple rooms, decent food, and easy highway access.</string>
+
+    <string name="quality_silesian_hotel_name">Quality Silesian Hotel</string>
+    <string name="quality_silesian_hotel_description">A comfortable and modern 3-star hotel located near the A4 motorway, offering convenient access to the city center and major transport routes. It features well-equipped rooms, a restaurant, sauna, and fitness area, making it a good choice for both business and leisure travelers.</string>
+
+    <string name="hotel_monopol_name">Hotel Monopol</string>
+    <string name="hotel_monopol_description">A luxurious 5-star hotel in the heart of Katowice, known for its elegant interiors, historic architecture, and high-end service. It offers spacious rooms, a fine dining restaurant, a wellness zone with a pool and spa, and is popular among celebrities and business guests.</string>
+
+    <!-- Categories -->
+    <string name="coffee_shops">Coffee Shops</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="museums">Museums</string>
+    <string name="hotels">Hotels</string>
 </resources>

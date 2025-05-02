@@ -50,11 +50,11 @@ fun KatowiceAppBar(
         title = {
             if (placeUiState.selectedCategory != null && placeUiState.selectedRecommendation == null) {
                 Text(
-                    text = placeUiState.selectedCategory.name
+                    text = stringResource(placeUiState.selectedCategory.name)
                 )
             } else if (placeUiState.selectedRecommendation != null) {
                 Text(
-                    text = placeUiState.selectedRecommendation.name
+                    text = stringResource(placeUiState.selectedRecommendation.name)
                 )
             } else {
                 Text(
@@ -143,7 +143,7 @@ fun KatowiceApp(
                 uiState.selectedRecommendation?.let { recommendation ->
                     DetailedRecommendationScreen(
                         image = recommendation.image,
-                        description = recommendation.description,
+                        description = stringResource(recommendation.description),
                         modifier = Modifier.verticalScroll(rememberScrollState())
                     )
                 }

@@ -17,6 +17,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import com.example.katowiceapp.R
 import com.example.katowiceapp.data.SelectableItem
 
@@ -72,7 +73,7 @@ fun BaseListItem(
                 contentScale = ContentScale.Crop
             )
             Text(
-                text = item.name
+                text = stringResource(item.name)
             )
         }
     }

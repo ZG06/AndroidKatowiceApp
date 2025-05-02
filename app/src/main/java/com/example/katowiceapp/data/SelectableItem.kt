@@ -1,21 +1,22 @@
 package com.example.katowiceapp.data
 
 import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
 
 sealed class SelectableItem(
     @DrawableRes open val image: Int,
-    open val name: String
+    @StringRes open val name: Int
 ) {
     data class CategoryItem(
         @DrawableRes override val image: Int,
-        override val name: String,
+        @StringRes override val name: Int,
         val recommendations: List<RecommendationItem> = emptyList()
     ) : SelectableItem(image, name)
 
     data class RecommendationItem(
         @DrawableRes override val image: Int,
-        override val name: String,
-        val description: String
+        @StringRes override val name: Int,
+        @StringRes val description: Int
     ) : SelectableItem(image, name)
 }
