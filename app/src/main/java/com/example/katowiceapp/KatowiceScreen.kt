@@ -5,12 +5,12 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -46,21 +46,19 @@ fun KatowiceAppBar(
     navigateUp: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    CenterAlignedTopAppBar(
+    TopAppBar(
         title = {
-            if (placeUiState.selectedCategory != null && placeUiState.selectedRecommendation == null) {
-                Text(
-                    text = stringResource(placeUiState.selectedCategory.name)
-                )
-            } else if (placeUiState.selectedRecommendation != null) {
-                Text(
-                    text = stringResource(placeUiState.selectedRecommendation.name)
-                )
-            } else {
-                Text(
-                    text = stringResource(R.string.app_name)
-                )
-            }
+            Text(
+                text = when {
+                    placeUiState.selectedCategory != null && placeUiState.selectedRecommendation == null ->
+                        stringResource(placeUiState.selectedCategory.name)
+
+                    placeUiState.selectedRecommendation != null ->
+                        stringResource(placeUiState.selectedRecommendation.name)
+
+                    else -> stringResource(R.string.app_name)
+                }
+            )
         },
         modifier = modifier,
         navigationIcon = {
