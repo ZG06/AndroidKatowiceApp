@@ -1,8 +1,10 @@
 package com.example.katowiceapp.ui
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -18,6 +20,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import com.example.katowiceapp.R
 import com.example.katowiceapp.data.SelectableItem
 
@@ -62,6 +65,8 @@ fun BaseListItem(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier
                 .fillMaxWidth()
+                .background(MaterialTheme.colorScheme.primaryContainer)
+                .height(80.dp)
         ) {
             Image(
                 modifier = Modifier
@@ -73,7 +78,9 @@ fun BaseListItem(
                 contentScale = ContentScale.Crop
             )
             Text(
-                text = stringResource(item.name)
+                text = stringResource(item.name),
+                style = MaterialTheme.typography.displayMedium,
+                modifier = Modifier.padding(start = dimensionResource(R.dimen.padding_small))
             )
         }
     }
